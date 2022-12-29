@@ -48,9 +48,9 @@ function Login() {
                     <input id="user-password" class="form-content" type="password" name="password" ref={userRef} required onChange={e => setPassword(e.target.value)} value={password} />
                     <div class="form-border"></div>
 
-                    <input className="content-center" id="submit-btn" type="submit" name="submit" value="LOGIN" />
+                    <input style={{ marginLeft: "42px" }} className="contentCenter" id="submit-btn" type="submit" name="submit" value="LOGIN" />
                     <br></br>
-                    <a href="/alogin" id="signup">Use Admin Account</a>
+                    <a href="/alogin" style={{ marginLeft: "54px" }} id="signup">Use Admin Account</a>
                 </form>
             </div>
         </div>

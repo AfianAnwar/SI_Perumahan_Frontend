@@ -40,7 +40,7 @@ function Berita() {
           {berita.map((b, index) => (
             <tr key={b.id}>
               <td>{index + 1}</td>
-              <td>{b.gambar}</td>
+              <td><img src={b.gambar}/></td>
               <td>{b.judul}</td>
               <td>{b.keterangan}</td>
               <td>

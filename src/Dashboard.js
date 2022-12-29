@@ -35,9 +35,9 @@ function Dashboard() {
                             <div class="car-list-content">
                                 <div class="row">
                                     {dashboard.map((d, index) => (
-                                        <div class="col-lg-6 col-md-6">
+                                        <div class="col-lg-6 col-md-6" key={d.id}>
                                             <div class="single-car-wrap">
-                                            <img src="{d.gambar}" height="300" width="540 "/>
+                                            <img src={d.gambar} height="300" width="540 "/>
                                                 <div class="car-list-info without-bar">
                                                     <center>
                                                         <h4>{d.judul}</h4>

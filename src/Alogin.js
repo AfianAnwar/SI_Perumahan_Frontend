@@ -64,9 +64,9 @@ function Alogin() {
                     <input id="user-password" className="form-content" type="password" name="password" required onChange={e => setPassword(e.target.value)} />
                     <div className="form-border"></div>
 
-                    <input id="submit-btn" type="submit" name="submit" value="LOGIN" />
+                    <input style={{ marginLeft: "42px" }} id="submit-btn" type="submit" name="submit" value="LOGIN" />
                     <br></br>
-                    <a href="/" id="signup">Use User Account</a>
+                    <a href="/" style={{ marginLeft: "54px" }} id="signup">Use User Account</a>
                 </form>
             </div>
         </div>
