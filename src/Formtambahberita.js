@@ -37,21 +37,20 @@ function Formtambahberita() {
             <form onSubmit={(e) => HandleSubmit(e)}>
                 <div className="form-group">
                     <label>Judul Berita</label>
-                    <input type="text" name="judul" className="form-control" value={judul} onChange={e => setJudul(e.target.value)} />
+                    <input type="text" name="judul" className="form-control" required value={judul} onChange={e => setJudul(e.target.value)} />
                 </div>
 
                 <div className="form-group">
                     <label>Keterangan Berita</label>
-                    <input type="text" name="keterangan" className="form-control" value={keterangan} onChange={e => setKeterangan(e.target.value)} />
+                    <input type="text" name="keterangan" className="form-control" required value={keterangan} onChange={e => setKeterangan(e.target.value)} />
                 </div>
 
                 <div className="form-group">
                     <label>Gambar</label>
-                    <input type="text" name="gambar" className="form-control" value={gambar} onChange={e => setGambar(e.target.value)} />
+                    <input type="text" name="gambar" className="form-control" required value={gambar} onChange={e => setGambar(e.target.value)} />
                 </div>
 
-                <button type="submit" className="btn btn-sm btn-primary">Submit</button>
-                <button type="reset" className="btn btn-sm btn-danger">Reset</button>
+                <button type="submit" className="btn btn-sm btn-primary">Submit</button>    
             </form>
         </div>
     )

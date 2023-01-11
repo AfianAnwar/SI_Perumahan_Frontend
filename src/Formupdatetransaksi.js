@@ -43,7 +43,6 @@ function Formupdatetransaksi() {
         </div>
 
         <button type="submit" class="btn btn-sm btn-primary">Submit</button>
-        <button type="reset" class="btn btn-sm btn-danger">Reset</button>
       </form>
     </div>
   )

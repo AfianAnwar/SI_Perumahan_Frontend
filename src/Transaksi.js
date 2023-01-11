@@ -33,7 +33,6 @@ function Transaksi() {
             <th>Nama</th>
             <th>Tanggal Bayar</th>
             <th>Keterangan</th>
-            <th>Bukti Bayar</th>
             <th>Status</th>
             <th>Action</th>
           </tr>
@@ -43,7 +42,6 @@ function Transaksi() {
             <td>{t.name}</td>
             <td>{t.tanggal}</td>
             <td>{t.keterangan}</td>
-            <td>{t.image}</td>
             <td>{t.status}</td>
             <td>
               <a href={`/transaksi/delete/${t.id}`} onClick={() => deletetransaksi(t.id)} class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></a>

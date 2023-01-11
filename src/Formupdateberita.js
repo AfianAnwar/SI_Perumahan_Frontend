@@ -59,7 +59,6 @@ function Formupdateberita() {
                 </div>
 
                 <button type="submit" className="btn btn-sm btn-primary">Submit</button>
-                <button type="reset" className="btn btn-sm btn-danger">Reset</button>
             </form>
         </div>
     )

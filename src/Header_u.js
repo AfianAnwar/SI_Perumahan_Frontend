@@ -71,7 +71,7 @@ return (
                                 <li><a href="/dashboard">Dashboard</a></li>
                                 <li><a href="/profil">Profil</a></li>
                                 <li><a href="/pembayaran">Pembayaran</a></li>
-                                <li><a href="/logout">Welcome {username.name}<span> | Logout</span></a></li>
+                                <li><a href="/">Welcome {username.name}<span> | Logout</span></a></li>
                             </ul>
                         </nav>
                     </div>
